@@ -1,2 +1,3 @@
-.slxc
-.mexw64
+*.slxc
+*.mexw64
+slprj/
