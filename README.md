@@ -15,7 +15,7 @@ Transmitter and Receiver hardware : Zedboard (Xilinx Zynq®-7000) + AD9361 (Anal
 
 Before executing this code, please follow this [tutorial](https://www.mathworks.com/help/supportpkg/xilinxzynqbasedradio/ug/install-support-package-for-xilinx-zynq-based-radio.html) to install support package for Xilinx Zynq-Based Radio in Matlab.
 
-# Simulink Structure :
+# Simulink Diagram :
 
 Double click `From Multimedia File` block and edit the path to import the example music files.
 
@@ -45,7 +45,18 @@ Run FM App in your mobile phone
 
 <img src="https://raw.githubusercontent.com/MeowLucian/SDR_FM_Radio/master/Image/Mobile_FM_App_Screenshot.jpg" width="500">
 
-# Things to try yourself:
+# Signal Parameters
+
+| Center Frequency                   | 100 MHz                          |
+|:----------------------------------:|:--------------------------------:|
+| Sample Rate (Bandwidth)            | 960 KHz                          |
+| Frequency deviation                | 75  KHz                          |
+| Pre-emphasis filter time constant  | 7.5e-5 s                         |
+| Audio sample rate                  | 48 KHz                           |
+| PC Host IP address                 | 192.168.3.1                      |
+| TX IP address                      | 192.168.3.2                      |
+
+# Things to try yourself :
 
 * Turn the switch to change the music.
 
