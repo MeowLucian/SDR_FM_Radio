@@ -25,11 +25,30 @@ Run `FM_radio_TX.slx` to transmit FM signal.
 
 # GUI :
 
-* Music_Time_Scope
+## Transmitter
+
+* Center Frequency Setting
+
+<img src="https://raw.githubusercontent.com/MeowLucian/SDR_FM_Radio/master/Image/GUI_TX_Simulink_Center_Frequency_Change.png" width="500">
+
+* Music Time Scope
 
 <img src="https://raw.githubusercontent.com/MeowLucian/SDR_FM_Radio/master/Image/GUI_TX_Simulink_Time_Scope.png" width="500">
 
-* FM_TX_Sugnal_Spectrum
+* FM TX Signal Spectrum
 
 <img src="https://raw.githubusercontent.com/MeowLucian/SDR_FM_Radio/master/Image/GUI_TX_Simulink_Spectrum_Analyzer.png" width="500">
 
+## Receiver (Mobile)
+
+Run FM App in your mobile phone
+
+<img src="https://raw.githubusercontent.com/MeowLucian/SDR_FM_Radio/master/Image/Mobile_FM_App_Screenshot.jpg" width="500">
+
+# Things to try yourself:
+
+* Turn the switch to change the music.
+
+* Change the carrier frequency.
+
+* Import your own music (Notice : audio sample rate must be 48000 Hz in this example)
