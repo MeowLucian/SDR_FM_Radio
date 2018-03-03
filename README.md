@@ -39,9 +39,11 @@ Run `FM_radio_TX.slx` to transmit FM signal.
 
 <img src="https://raw.githubusercontent.com/MeowLucian/SDR_FM_Radio/master/Image/GUI_TX_Simulink_Spectrum_Analyzer.png" width="500">
 
+## Receiver
+
 ## Receiver (Mobile)
 
-Run FM App in your mobile phone
+Run FM app in your mobile phone
 
 <img src="https://raw.githubusercontent.com/MeowLucian/SDR_FM_Radio/master/Image/Mobile_FM_App_Screenshot.jpg" width="500">
 
@@ -50,9 +52,9 @@ Run FM App in your mobile phone
 | Center Frequency                   | 100 MHz                          |
 |:----------------------------------:|:--------------------------------:|
 | Sample Rate (Bandwidth)            | 960 KHz                          |
-| Frequency deviation                | 75  KHz                          |
-| Pre-emphasis filter time constant  | 7.5e-5 s                         |
-| Audio sample rate                  | 48 KHz                           |
+| Frequency Deviation                | 75  KHz                          |
+| Pre-emphasis Filter Time Constant  | 7.5e-5 s                         |
+| Audio Sample Rate                  | 48 KHz                           |
 | PC Host IP address                 | 192.168.3.1                      |
 | TX IP address                      | 192.168.3.2                      |
 
