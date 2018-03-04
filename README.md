@@ -17,6 +17,8 @@ Before executing this code, please follow this [tutorial](https://www.mathworks.
 
 # Simulink Diagram :
 
+Open `FM_radio_TX.slx` Simulink model.
+
 Double click `From Multimedia File` block and edit the path to import the example music files.
 
 Run `FM_radio_TX.slx` to transmit FM signal.
@@ -25,7 +27,7 @@ Run `FM_radio_TX.slx` to transmit FM signal.
 
 # GUI :
 
-## Transmitter
+## Transmitter (Zedboard + AD9361)
 
 * Center Frequency Setting
 
@@ -39,9 +41,13 @@ Run `FM_radio_TX.slx` to transmit FM signal.
 
 <img src="https://raw.githubusercontent.com/MeowLucian/SDR_FM_Radio/master/Image/GUI_TX_Simulink_Spectrum_Analyzer.png" width="500">
 
-## Receiver
+## Receiver (Zedboard + AD9361)
 
-## Receiver (Mobile)
+Run `FM_radio_RX.m` to receive FM signal.
+
+<img src="https://raw.githubusercontent.com/MeowLucian/SDR_FM_Radio/master/Image/GUI_RX.png" width="500">
+
+## Receiver (Mobile Phone)
 
 Run FM app in your mobile phone
 
