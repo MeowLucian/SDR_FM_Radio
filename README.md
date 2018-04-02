@@ -31,7 +31,13 @@ Run `FM_radio_TX.slx` to transmit FM signal.
 
 * Center Frequency Setting
 
+Default : 100 MHz
+
 <img src="https://raw.githubusercontent.com/MeowLucian/SDR_FM_Radio/master/Image/GUI_TX_Simulink_Center_Frequency_Change.png" width="500">
+
+Notice : antenna length must be `light speed / Center Frequency / 2` = `3*10^8 / 100*10^6 / 2` = `1.5 meters`
+
+(Half wave length) for better transmitting in this example
 
 * Music Time Scope
 
@@ -52,6 +58,8 @@ Run `FM_radio_RX.m` to receive FM signal.
 Run FM app in your mobile phone
 
 <img src="https://raw.githubusercontent.com/MeowLucian/SDR_FM_Radio/master/Image/Mobile_FM_App_Screenshot.jpg" width="500">
+
+Video Demo : https://www.youtube.com/watch?v=N0qS5glipiM
 
 # Signal Parameters
 
